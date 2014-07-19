@@ -5,9 +5,25 @@ Tasky F
 Introduction
 ------------
 
+The current version converts the Droid version of Tasky Pro to a hybrid version of Android app in C# and F# using Xamarin Studio.  Only the UI code was converted to F#, the rest (BL, DAL, DL) remain in C#.
+
 
 Background
 ----------
+
+I was browsing Xamarin portal and found out that Xamarin supports F#.  I am new to F# and want to try it out.  Instead of converting everything to F#, I was wondering if I can reuse part of the C# as a library and convert only the UI part.  I googled and found a C# console app which calls a middle layer which coded in F# and this middle layer reuses some C# codes.  
+
+Based on that I wrote a F# console app which calls the middle F# layer.  After that, I continue to convert the Tasky Pro Android app using F#.
+
+
+Code and Xamarin Studio
+-----------------------
+
+
+
+
+Screenshots
+-----------
 
 
 
