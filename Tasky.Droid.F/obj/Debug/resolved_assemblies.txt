@@ -1,3 +1,0 @@
-C:\Users\vincent\Desktop\xamarin_samples\TaskyPro\Tasky.Droid.F\bin\Debug\Tasky.Droid.F.dll
-C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\MonoAndroid\v1.0\FSharp.Core.dll
-C:\Users\vincent\Desktop\xamarin_samples\TaskyPro\Tasky.Core.Lib\bin\Debug\Tasky.Core.Lib.dll
