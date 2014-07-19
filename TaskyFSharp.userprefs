@@ -1,0 +1,10 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="Android.4df13aa87e2b8fd9" />
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Tasky.Droid MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" />
+  <MonoDevelop.Ide.ItemProperties.Tasky.Droid.F MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" />
+</Properties>

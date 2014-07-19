@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="Android.4df13aa87e2b8fd9" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Tasky.Droid.F\Screens\HomeScreen.fs">
+    <Files>
+      <File FileName="Tasky.Droid.F\Screens\HomeScreen.fs" Line="57" Column="47" />
+      <File FileName="Tasky.Droid\Adapters\TaskListAdapter.cs" Line="1" Column="1" />
+      <File FileName="Tasky.Droid\Screens\HomeScreen.cs" Line="44" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Tasky.Droid.F MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" />
+  <MonoDevelop.Ide.ItemProperties.Tasky.Droid MonoForAntroid.PreferredDevice="3.7&quot; WVGA (Nexus One)" />
+</Properties>

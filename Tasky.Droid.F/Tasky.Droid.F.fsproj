@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{F2A71F9B-5D33-465A-A702-920D77279786}</ProjectTypeGuids>
+    <ProjectGuid>{729E5402-6BF0-411D-B972-697D4FACAFB0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Tasky.Droid.F</RootNamespace>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
+    <AndroidApplication>True</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.designer.fs</AndroidResgenFile>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <AssemblyName>Tasky.Droid.F</AssemblyName>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <TargetFrameworkVersion>v4.4</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <Tailcalls>false</Tailcalls>
+    <PlatformTarget>
+    </PlatformTarget>
+    <ConsolePause>false</ConsolePause>
+    <AndroidLinkMode>None</AndroidLinkMode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <Tailcalls>true</Tailcalls>
+    <ConsolePause>false</ConsolePause>
+    <PlatformTarget>
+    </PlatformTarget>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="mscorlib" />
+    <Reference Include="FSharp.Core" />
+    <Reference Include="Mono.Android" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Resources\Resource.designer.fs" />
+    <Compile Include="Properties\AssemblyInfo.fs" />
+    <Compile Include="Screens\TaskDetailsScreen.fs" />
+    <Compile Include="Screens\HomeScreen.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Properties\AndroidManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Main.axml" />
+    <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\drawable\ic_action_addtask.png" />
+    <AndroidResource Include="Resources\drawable\ic_action_delete.png" />
+    <AndroidResource Include="Resources\drawable\ic_action_save.png" />
+    <AndroidResource Include="Resources\drawable\ic_checkmark.png" />
+    <AndroidResource Include="Resources\drawable\ic_launcher.png" />
+    <AndroidResource Include="Resources\layout\HomeScreen.axml" />
+    <AndroidResource Include="Resources\layout\TaskDetails.axml" />
+    <AndroidResource Include="Resources\layout\TaskListItem.axml" />
+    <AndroidResource Include="Resources\menu\menu_detailsscreen.xml" />
+    <AndroidResource Include="Resources\menu\menu_homescreen.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\AboutAssets.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.FSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Screens\" />
+    <Folder Include="Resources\menu\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tasky.Core.Lib\Tasky.Core.Lib.csproj">
+      <Project>{2FB3906B-7057-4874-A487-6AB3FDA54F07}</Project>
+      <Name>Tasky.Core.Lib</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,3 @@
+Tasky.Droid.F.TaskDetailsScreen;tasky.droid.f.TaskDetailsScreen
+Tasky.Droid.F.TaskListViewAdapter;tasky.droid.f.TaskListViewAdapter
+Tasky.Droid.F.HomeScreen;tasky.droid.f.HomeScreen

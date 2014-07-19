@@ -1,0 +1,4 @@
+C:\Users\vincent\Desktop\xamarin_samples\xamarin-mobile-samples-master\TaskyPro\Tasky.Core\bin\Debug\Tasky.Core.dll
+C:\Users\vincent\Desktop\xamarin_samples\xamarin-mobile-samples-master\TaskyPro\Tasky.Core\bin\Debug\Tasky.Core.pdb
+C:\Users\vincent\Desktop\xamarin_samples\xamarin-mobile-samples-master\TaskyPro\Tasky.Core\obj\Debug\Tasky.Core.dll
+C:\Users\vincent\Desktop\xamarin_samples\xamarin-mobile-samples-master\TaskyPro\Tasky.Core\obj\Debug\Tasky.Core.pdb

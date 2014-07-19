@@ -1,0 +1,1 @@
+C:\Users\vincent\Desktop\xamarin_samples\xamarin-mobile-samples-master\TaskyPro\Tasky.Droid\bin\Debug\Tasky.Android.dll
