@@ -38,8 +38,9 @@ Screenshots
 -----------
 
 
-<img src="https://github.com/wesee/TaskyFSharp/blob/master/Screenshots/Android.F/taskyf_list.png" width="150"/>
+<img src="https://github.com/wesee/TaskyFSharp/blob/master/Screenshots/Android.F/taskyf_list.png" width="200"/>
 
+<img src="https://github.com/wesee/TaskyFSharp/blob/master/Screenshots/Android.F/taskyf_details.png" width="200"/>
 
 
 
